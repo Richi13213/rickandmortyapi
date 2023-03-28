@@ -1,0 +1,36 @@
+:root {
+  --heigthnav: 80px;
+}
+@import url('https://fonts.googleapis.com/css2?family=Edu+NSW+ACT+Foundation&display=swap');
+
+.navbar, .navbar-collapse  {
+   background: rgb(84, 234, 176);
+  background: -moz-linear-gradient(
+    90deg,
+    rgba(84, 234, 176, 0.7) 36%,
+    rgba(247, 255, 0, 0.7) 90%
+  );
+  background: -webkit-linear-gradient(
+    90deg,
+    rgba(84, 234, 176, 0.7) 36%,
+    rgba(247, 255, 0, 0.7) 90%
+  );
+  background: linear-gradient(
+    90deg,
+    rgba(84, 234, 176, 0.7) 36%,
+    rgba(247, 255, 0, 0.7) 90%
+  );
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#54eab0",endColorstr="#f7ff00",GradientType=1);
+  height: var(--heigthnav);
+  font-family: 'Edu NSW ACT Foundation', cursive;
+  font-weight: bolder;
+  font-size: 1.5em;
+}
+.botton-menu{
+    background-color:rgb(84, 234, 176);
+    border-color: #222;
+    border-style: solid;
+}
+img {
+  height: var(--heigthnav);
+}
